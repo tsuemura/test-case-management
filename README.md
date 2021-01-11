@@ -1,24 +1,18 @@
-# README
+# Test Case Management
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a sample of developing TCMS(Test Case Management System) using Rails and React.
 
-Things you may want to cover:
+## How to set up
 
-* Ruby version
+```bash
 
-* System dependencies
+$ docker
 
-* Configuration
+```
 
-* Database creation
+## How to deploy
 
-* Database initialization
+You can immediately deploy it on Heroku with this button.
 
-* How to run the test suite
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
