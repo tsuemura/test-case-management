@@ -3,9 +3,12 @@ services:
   db:
     image: postgres:13.1
     volumes:
-      - ./tmp/db:/var/lib/postgresql/data
+      - ./tmp/pgdata:/var/lib/postgresql/data/pgdata
     environment:
-      - POSTGRES_PASSWORD=password
+      POSTGRES_PASSWORD: test_case_management
+      POSTGRES_USER: test_case_management
+      POSTGRES_DB: test_case_management_development
+      PGDATA: /var/lib/postgresql/data/pgdata
   web:
     build: .
     command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
