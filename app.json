@@ -1,0 +1,5 @@
+{
+  "name": "test-case-management",
+  "description": "A sample test case management app with Rails and React",
+  "repository": "https://github.com/tsuemura/test-case-management"
+}
